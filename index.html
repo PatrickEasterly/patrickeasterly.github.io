@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <html lang="en-US">
     <link rel="shorcut icon" href="images/alliance.jpg" type="image/xicon">
     <meta name="author" content="Patrick Easterly">
     <meta name="about" conent="Patrick Easterly">
@@ -11,12 +12,16 @@
     <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
     <title>My test page</title>
   </head>
-  <body>
+  <body id="first">
     <nav>
-      Navbars
+      <ul style="margin-left: 150px; margin-right: 150px">
+      <li>home</li>
+      <li>about</li>
+      <li>contact</li>
+      </ul>
     </nav>
       <h1>This text is now different.</h1>
-      <h2>And so is this.</h2>
+      <h2>Here's a <a href="#" title="Told ya so">link</a> that has info about it when you mouse over it</h2>
     <img id="img" src="images/boxes.jpg" alt="Brazilian Jiu-jitsu Wallpaper">
     <p>These are all the things that Mozilla wants from me: </p>
     <ul>
@@ -33,6 +38,8 @@
         don't think it's served me well. So I'm going to be patient, and take my sweet-ass pimp time going through Mozilla's 
         tutorials. They seem to be very thurough, and I'd like to learn these languages thuroughly. 
     </p>
+    <br>
+    <p><a href="#first">Go to top</a></p>
     <button>Change user</button>
     <script src="scripts/main.js"></script>
   </body>
