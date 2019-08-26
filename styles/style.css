@@ -4,6 +4,9 @@ html {
     background-color: #bcc8cf;
   }
     
+nav{
+  text-align: center;
+}
 h1 {
     margin: 0;
     padding: 20px 0 0 0;    
