@@ -10,17 +10,21 @@ myImage.onclick = function() {
 }
 let myButton = document.querySelector('button');
 let myHeading = document.querySelector('h1');
+
+
+/*
 function setUserName() {
     let myName = prompt('Please enter your name.');
-    localStorage.setItem('name', myName);
+    localStorage.setItem('rabits', myName);
     myHeading.textContent = 'Mozilla is cool, ' + myName;
   }
-  if(!localStorage.getItem('name')) {
+  if(!localStorage.getItem('rabits')) {
     setUserName();
   } else {
-    let storedName = localStorage.getItem('name');
+    let storedName = localStorage.getItem('rabits');
     myHeading.textContent = 'Mozilla is cool, ' + storedName;
   }
   myButton.onclick = function(){
       setUserName();
   }
+*/
